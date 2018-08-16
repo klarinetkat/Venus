@@ -4,9 +4,9 @@
        -moz-appearance:none;
             appearance:none;
 }
-.tomboy1{background-image:url('Q1_tomboy.jpg');}
-.mini1{background-image:url('Q1_mini.jpg');}
-.fem1{background-image:url('Q1_fem.jpg');}
+.tomboy1{background-image:url('https://image.ibb.co/mOTsoK/Q1_tomboy.jpg');}
+.mini1{background-image:url('https://image.ibb.co/hjoE2e/Q1_mini.jpg');}
+.fem1{background-image:url('https://image.ibb.co/kEKnNe/Q1_fem.jpg');}
 
 .answers input:active +.picture{opacity: .9;}
 .answers input:checked +.picture{
