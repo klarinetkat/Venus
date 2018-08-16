@@ -6,7 +6,7 @@
 }
 .tomboy1{background-image:url(https://image.ibb.co/mOTsoK/Q1_tomboy.jpg);}
 .mini1{background-image:url(https://image.ibb.co/hjoE2e/Q1_mini.jpg);}
-.fem1{background-image:url(https://image.ibb.co/kEKnNe/Q1_fem.jpg);}
+.fem1{background-image:url(https://preview.ibb.co/d93vQz/Q1_fem.jpg);}
 .bohem1{background-image:url(https://image.ibb.co/hQPz2e/Q1_bohem.jpg);}
 .vint1{background-image:url(https://image.ibb.co/kZuA8K/Q1_vint.jpg);}
 
@@ -18,13 +18,13 @@
 
 .tomboy3{background-image:url(https://image.ibb.co/fpEoCe/Q3_tomboy.jpg);}
 .mini3{background-image:url(https://image.ibb.co/k2oyCe/Q3_mini.jpg);}
-.fem3{background-image:url(https://preview.ibb.co/bCuJTK/Q3_fem.jpg);}
+.fem3{background-image:url(https://image.ibb.co/idfaQz/Q3_fem.jpg);}
 .bohem3{background-image:url(https://image.ibb.co/e8zfaz/Q3_bohem.jpg);}
 .vint3{background-image:url(https://image.ibb.co/jpWzkz/Q3_vint.jpg);}
 
 .tomboy4{background-image:url(https://preview.ibb.co/eY31yK/Q4_tomboy.jpg);}
 .mini4{background-image:url(https://preview.ibb.co/gKWRXe/Q4_mini.jpg);}
-.fem4{background-image:url(https://image.ibb.co/fwoJdK/Q4_fem.jpg);}
+.fem4{background-image:url(https://preview.ibb.co/h1eMXe/Q4_fem.jpg);}
 .bohem4{background-image:url(https://image.ibb.co/jNTqse/Q4_bohem.jpg);}
 .vint4{background-image:url(https://preview.ibb.co/dxbRXe/Q4_vint.jpg);}
 
@@ -49,9 +49,9 @@
     -webkit-transition: all 100ms ease-in;
        -moz-transition: all 100ms ease-in;
             transition: all 100ms ease-in;
-    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
-       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
-            filter: brightness(1.8) grayscale(1) opacity(.7);
+    -webkit-filter: brightness(1.2) grayscale(.4) opacity(.8);
+       -moz-filter: brightness(1.2) grayscale(.4) opacity(.8);
+            filter: brightness(1.2) grayscale(.4) opacity(.8);
 }
 .picture2_4{
     cursor:pointer;
@@ -62,19 +62,19 @@
     -webkit-transition: all 100ms ease-in;
        -moz-transition: all 100ms ease-in;
             transition: all 100ms ease-in;
-    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
-       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
-            filter: brightness(1.8) grayscale(1) opacity(.7);
+    -webkit-filter: brightness(1.2) grayscale(.4) opacity(.8);
+       -moz-filter: brightness(1.2) grayscale(.4) opacity(.8);
+            filter: brightness(1.2) grayscale(.4) opacity(.8);
 }
 .picture1_3:hover{
-    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
-       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
-            filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -webkit-filter: brightness(1.2) grayscale(0) opacity(1);
+       -moz-filter: brightness(1.2) grayscale(0) opacity(1);
+            filter: brightness(1.2) grayscale(0) opacity(1);
 }
 .picture2_4:hover{
-    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
-       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
-            filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -webkit-filter: brightness(1.2) grayscale(0) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(0) opacity(.9);
+            filter: brightness(1.2) grayscale(0) opacity(.9);
 }
 
 /* Extras */
