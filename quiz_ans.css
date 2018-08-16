@@ -4,12 +4,38 @@
        -moz-appearance:none;
             appearance:none;
 }
-.tomboy1{background-image:url('https://image.ibb.co/mOTsoK/Q1_tomboy.jpg');}
-.mini1{background-image:url('https://image.ibb.co/hjoE2e/Q1_mini.jpg');}
-.fem1{background-image:url('https://image.ibb.co/kEKnNe/Q1_fem.jpg');}
+.tomboy1{background-image:url(https://image.ibb.co/mOTsoK/Q1_tomboy.jpg);}
+.mini1{background-image:url(https://image.ibb.co/hjoE2e/Q1_mini.jpg);}
+.fem1{background-image:url(https://image.ibb.co/kEKnNe/Q1_fem.jpg);}
+.bohem1{background-image:url(https://image.ibb.co/hQPz2e/Q1_bohem.jpg);}
+.vint1{background-image:url(https://image.ibb.co/kZuA8K/Q1_vint.jpg);}
 
-.answers input:active +.picture{opacity: .9;}
-.answers input:checked +.picture{
+.tomboy2{background-image:url(https://preview.ibb.co/fEAQ8K/Q2_tomboy.gif);}
+.mini2{background-image:url(https://preview.ibb.co/c7CNoK/Q2_mini.png);}
+.fem2{background-image:url(https://image.ibb.co/et4Dvz/Q2_fem.png);}
+.bohem2{background-image:url(https://preview.ibb.co/ftAiTK/Q2_bohem.png);}
+.vint2{background-image:url(https://image.ibb.co/mSKJTK/Q2_vint.png);}
+
+.tomboy3{background-image:url(https://image.ibb.co/fpEoCe/Q3_tomboy.jpg);}
+.mini3{background-image:url(https://image.ibb.co/k2oyCe/Q3_mini.jpg);}
+.fem3{background-image:url(https://preview.ibb.co/bCuJTK/Q3_fem.jpg);}
+.bohem3{background-image:url(https://image.ibb.co/e8zfaz/Q3_bohem.jpg);}
+.vint3{background-image:url(https://image.ibb.co/jpWzkz/Q3_vint.jpg);}
+
+.tomboy4{background-image:url(https://preview.ibb.co/eY31yK/Q4_tomboy.jpg);}
+.mini4{background-image:url(https://preview.ibb.co/gKWRXe/Q4_mini.jpg);}
+.fem4{background-image:url(https://image.ibb.co/fwoJdK/Q4_fem.jpg);}
+.bohem4{background-image:url(https://image.ibb.co/jNTqse/Q4_bohem.jpg);}
+.vint4{background-image:url(https://preview.ibb.co/dxbRXe/Q4_vint.jpg);}
+
+.answers input:active +.picture1_3{opacity: .9;}
+.answers input:checked +.picture1_3{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.answers input:active +.picture2_4{opacity: .9;}
+.answers input:checked +.picture2_4{
     -webkit-filter: none;
        -moz-filter: none;
             filter: none;
