@@ -19,16 +19,16 @@ function calculate(list){;
       window.location = "tomboy.html";
     }
     if (y == 1){
-      window.location = "stylepage2.html";
+      window.location = "minimalist.html";
     }
     if (y == 2){
-      window.location = "stylepage3.html";
+      window.location = "feminine.html";
     }
     if (y == 3){
-      window.location = "stylepage4.html";
+      window.location = "bohemian.html";
     }
     if (y == 4){
-      window.location = "stylepage5.html";
+      window.location = "vintage.html";
     }
   }
 }
