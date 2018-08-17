@@ -17,3 +17,17 @@
 #finish {
   display:none;
 }
+
+p {
+  color: black;
+  font-size: 32px;
+  font-family: Georgia, serif;
+  margin: 0px;
+  padding-top: 0;
+}
+
+/* .logo {
+    position: relative;
+    left: 550px;
+    top: 5px;
+} */
