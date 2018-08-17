@@ -24,6 +24,15 @@ p {
   font-family: Georgia, serif;
   margin: 0px;
   padding-top: 0;
+  font-weight: bold;
+}
+
+#choices {
+  color: black;
+  font-size: 29px;
+  font-family: Georgia, serif;
+  margin: 0px;
+  padding-top: 0;
 }
 
 /* .logo {
