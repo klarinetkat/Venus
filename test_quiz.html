@@ -3,15 +3,20 @@
 <html>
   <head>
     <link rel="stylesheet" href="quiz_ans.css">
-    <center>
-      <div><img src="test_venusLogo.jpg" width="200" height="113"></div>
-    </center>
+    <link rel="stylesheet" href="faded_quiz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="faded_quiz.js"></script>
   </head>
 
   <body>
     <script src="venus.js"></script>
     <center>
-      <form>
+      <img src="test_venusLogo.jpg" width="200" height="113">
+    </center>
+
+    <center>
+      <div id="q1">
         <p>What outfit would you wear? </p>
         <div class="answers">
             <input id="tomboy1" type="radio" onClick="addpoints(0)" name="outfit" value="tomboy1" />
@@ -25,7 +30,9 @@
             <input id="vint1" type="radio" onClick="addpoints(4)" name="outfit" value="vint1" />
             <label class="picture1_3 vint1"for="vint1"></label>
         </div>
+      </div>
 
+      <div id="q2">
         <p>What colors do you wear the most? </p>
         <div class="answers">
             <input id="tomboy2" type="radio" onClick="addpoints(0)" name="outfit" value="tomboy2" />
@@ -39,7 +46,9 @@
             <input id="vint2" type="radio" onClick="addpoints(4)" name="outfit" value="vint2" />
             <label class="picture2_4 vint2"for="vint2"></label>
         </div>
+      </div>
 
+      <div id="q3">
         <p>Which celebrity style inspires you? </p>
         <div class="answers">
             <input id="tomboy3" type="radio" onClick="addpoints(0)" name="outfit" value="tomboy3" />
@@ -53,7 +62,9 @@
             <input id="vint3" type="radio" onClick="addpoints(4)" name="outfit" value="vint3" />
             <label class="picture1_3 vint3"for="vint3"></label>
         </div>
+      </div>
 
+      <div id="q4">
         <p>Which is your go to shoe? </p>
         <div class="answers">
             <input id="tomboy4" type="radio" onClick="addpoints(0)" name="outfit" value="tomboy4" />
@@ -67,7 +78,9 @@
             <input id="vint4" type="radio" onClick="addpoints(4)" name="outfit" value="vint4" />
             <label class="picture2_4 vint4"for="vint4"></label>
         </div>
+      </div>
 
+      <div id="q5">
         <p>How would you describe your look? </p>
         <div>
           <input id="tomboy5" type="radio" onClick="addpoints(0)" name="describe" value="tomboy5" />
@@ -81,7 +94,10 @@
           <input id="vint5" type="radio" onClick="addpoints(4)" name="describe" value="vint5" />
           <label for="vint5">timeless and classic</label>
         </div>
-      </form>
+      </div>
+
+      <p id="finish">complete</p>
+
     </center>
   </body>
 </html>
