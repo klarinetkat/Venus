@@ -6,11 +6,6 @@ a {
     color: white;
 }
 
-.pic {
-    position: relative;
-    top: 30px;
-}
-
 .text-block {
     position: relative;
     color: white;
@@ -22,28 +17,28 @@ a {
     box-sizing: border-box;
     border: 3px solid white;
     bottom: 400px;
-    right: -500px;
+    right: -480px;
     margin: 0;
 }
 
 .take-quiz {
     position: relative;
-    color: white;
+    color: LightCoral;
     font-size: 52px;
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     bottom: 480px;
-    right: -50px;
+    right: -45px;
     margin: 0;
 }
 
 .about-us {
     position: relative;
     text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Georgia, serif;
     margin: 0;
     bottom: 190px;
-    right: -50px;
+    right: -25px;
 }
 
 #title {
@@ -57,5 +52,6 @@ a {
   position: relative;
   color: black;
   font-size: 26px;
-  text-align: left;
+  text-align: center;
 }
+
