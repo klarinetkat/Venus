@@ -10,11 +10,11 @@
 .bohem1{background-image:url(https://image.ibb.co/hQPz2e/Q1_bohem.jpg);}
 .vint1{background-image:url(https://image.ibb.co/kZuA8K/Q1_vint.jpg);}
 
-.tomboy2{background-image:url(https://preview.ibb.co/fEAQ8K/Q2_tomboy.gif);}
+.tomboy2{background-image:url(https://image.ibb.co/bKaCqz/Q2_tomboy.jpg);}
 .mini2{background-image:url(https://preview.ibb.co/c7CNoK/Q2_mini.png);}
 .fem2{background-image:url(https://preview.ibb.co/fPUaaz/Q2_fem.png);}
 .bohem2{background-image:url(https://preview.ibb.co/ftAiTK/Q2_bohem.png);}
-.vint2{background-image:url(https://image.ibb.co/mSKJTK/Q2_vint.png);}
+.vint2{background-image:url(https://image.ibb.co/g81Sqz/Q2_vint.png);}
 
 .tomboy3{background-image:url(https://image.ibb.co/fpEoCe/Q3_tomboy.jpg);}
 .mini3{background-image:url(https://image.ibb.co/k2oyCe/Q3_mini.jpg);}
@@ -80,4 +80,6 @@
 /* Extras */
 a:visited{color:#888}
 a{color:#444;text-decoration:none;}
+p{margin-bottom:.3em;}
+
 p{margin-bottom:.3em;}
