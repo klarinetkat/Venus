@@ -26,7 +26,7 @@ a {
     color: LightCoral;
     font-size: 52px;
     text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-family: Georgia, serif;
     bottom: 480px;
     right: -45px;
     margin: 0;
@@ -35,7 +35,7 @@ a {
 .about-us {
     position: relative;
     text-align: center;
-    font-family: Georgia, serif;
+    font-family: serif;
     margin: 0;
     bottom: 190px;
     right: -25px;
@@ -54,4 +54,5 @@ a {
   font-size: 26px;
   text-align: center;
 }
+
 
