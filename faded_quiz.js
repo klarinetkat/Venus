@@ -21,6 +21,6 @@ $(document).ready(function(){
 
     $("#q5").click(function(){
       $(this).fadeOut("fast");
-      $("#finish").fadeIn("fast");
+      $("#q6").fadeIn("fast");
     });
 });
