@@ -37,19 +37,65 @@ function tie(max,list){
   for (i = -1; i < 5; i++){
     if (list[i] == max){
       if (i == 0){
-        /*show image a in question*/;
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "Q6_tom.jpg");
+        x.setAttribute("width", "400");
+        x.setAttribute("height", "300");
+        x.onclick = function() {
+          window.location.href = "tomboy.html";
+        };
+        // x.style.display = "block";
+        x.style.margin = "0 auto";
+        x.style.width = "50%";
+        document.body.appendChild(x);
+        // x.style.margin = "50px";
       }
       if (i == 1){
-        /*show image b in question*/;
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "Q6_mini.jpg");
+        x.setAttribute("width", "400");
+        x.setAttribute("height", "300");
+        x.onclick = function() {
+          window.location.href = "minimalist.html";
+        };
+        // x.style.display = "block";
+        x.style.margin = "0 auto";
+        x.style.width = "50%";
+        document.body.appendChild(x);
+        // x.style.margin = "50px";
       }
       if (i == 2){
-        /*show image c in question*/;
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "Q6_fem.jpg");
+        x.setAttribute("width", "400");
+        x.setAttribute("height", "300");
+        x.onclick = function() {
+          window.location.href = "feminine.html";
+        };
+        document.body.appendChild(x);
+        // x.style.margin = "0 auto";
       }
       if (i == 3){
-        /*show image d in question*/;
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "Q6_boho.jpg");
+        x.setAttribute("width", "400");
+        x.setAttribute("height", "300");
+        x.onclick = function() {
+          window.location.href = "bohemian.html";
+        };
+        document.body.appendChild(x);
+        // x.style.margin = "0 auto";
       }
       if (i == 4){
-        /*show image e in question*/;
+        var x = document.createElement("IMG");
+        x.setAttribute("src", "Q6_vint.jpg");
+        x.setAttribute("width", "400");
+        x.setAttribute("height", "300");
+        x.onclick = function() {
+          window.location.href = "vintage.html";
+        };
+        document.body.appendChild(x);
+        // x.style.margin = "0 auto";
       }
     }
   }
