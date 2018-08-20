@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <style>
+  a {
+    text-decoration: none;
+  }
+  h2 {
+    position: relative;
+    color: LightCoral;
+    font-size: 26px;
+    text-align: center;
+    top: 50px;
+  }
+  </style>
+
+  <body>
+    <div>
+     <span style="font-size:40px;cursor:pointer;color: #A9A9A9" onclick="openNav()">&#9776;</span>
+     <script>
+         function openNav() {
+             document.getElementById("mySidenav").style.width = "250px";
+         }
+         function closeNav() {
+             document.getElementById("mySidenav").style.width = "0";
+         }
+       </script>
+     </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="sidebar_allstyles.html">All styles</a>
+      <a href="sidebar_creators.html">Creators</a>
+      <a href="#"></a>
+    </div>
+    <center>
+      <div class='center1'><a href="index.html"><img src="test_venusLogo.jpg" width="200" height="113"></a</div>
+    </center>
+    <a href="bohemian.html"><h2>Bohemian<h2></a>
+    <a href="tomboy.html"><h2>Tomboy<h2></a>
+    <a href="feminine.html"><h2>Urban<h2></a>
+    <a href="vintage.html"><h2>Vintage<h2></a>
+    <a href="minimalist.html"><h2>Minimalist<h2></a>
+  </body>
+
+</html>

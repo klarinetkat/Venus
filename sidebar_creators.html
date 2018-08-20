@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  </head>
+
+  <style>
+  p {
+    position: relative;
+    color: black;
+    font-size: 26px;
+    text-align: center;
+    top: 50px;
+  }
+  </style>
+
+  <body>
+    <div>
+     <span style="font-size:40px;cursor:pointer;color: #A9A9A9" onclick="openNav()">&#9776;</span>
+     <script>
+         function openNav() {
+             document.getElementById("mySidenav").style.width = "250px";
+         }
+         function closeNav() {
+             document.getElementById("mySidenav").style.width = "0";
+         }
+       </script>
+     </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="sidebar_allstyles.html">All styles</a>
+      <a href="sidebar_creators.html">Creators</a>
+      <a href="#"></a>
+    </div>
+    <center>
+      <div class='center1'><a href="index.html"><img src="test_venusLogo.jpg" width="200" height="113"></a></div>
+    </center>
+    <p>Michelle Chow</p>
+    <p>Katherine Fernandes</p>
+    <p>Stella Lessler</p>
+    <p>Wenyan Zhang</p>
+  </body>
+
+</html>
