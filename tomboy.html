@@ -88,35 +88,67 @@
         color: #0033CC;
         font-family: 'Open Sans', sans-serif;
       }
-      .right {
+       .right {
         position: absolute;
-        top: 120%;
+        top: 110%;
         left: 10%;
         transform: translate(-50, -50%)
       }
       .middle {
         position: absolute;
-        top: 120%;
+        top: 110%;
         left: 43%;
         transform: translate(-50, -50%)
       }
       .left {
         position: absolute;
-        top: 120%;
+        top: 110%;
         left: 68%;
         transform: translate(-50, -50%)
       }
       .right-middle {
         position: absolute;
-        top: 180%;
+        top: 150%;
         left: 18%;
         transform: translate(-50, -50%)
       }
       .left-middle {
         position: absolute;
-        top: 180%;
+        top: 150%;
         left: 53%;
         transform: translate(-50, -50%)
+      }
+      .google{
+        width: 90%;
+        position: absolute;
+        top: 1800px;
+        left: 50%;
+        transform: translate(-50%, -114%);
+      }
+      .google2{
+        position: absolute;
+        width: 90%;
+        top: 1800px;
+        left: 50%;
+        height: 500px;
+        transform: translate(-50%, -114%);
+      }
+      .sr{
+        position: absolute;
+        display: block;
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+        font-size: 36px;
+        top: 1210px;
+        left: 50%;
+        transform: translate(-50%, -140%);
+      }
+      .sr2{
+        position: absolute;
+        top: 1180px;
+        width: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       .price {
         position: absolute;
@@ -169,13 +201,13 @@
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
-   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-   <a href="index.html">Home</a>
-   <a href="test_quiz.html">Take quiz</a>
-   <a href="sidebar_allstyles.html">All styles</a>
-   <a href="sidebar_creators.html">Creators</a>
-   <a href="#"></a>
- </div>
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+     <a href="index.html">Home</a>
+     <a href="test_quiz.html">Take quiz</a>
+     <a href="sidebar_allstyles.html">All styles</a>
+     <a href="sidebar_creators.html">Creators</a>
+     <a href="#"></a>
+   </div>
     <div>
       <span style="font-size:40px;cursor:pointer;color: #A9A9A9" onclick="openNav()">&#9776;</span>
       <script>
@@ -192,22 +224,41 @@
         </center>
     </div>
     <div>
+    <div>
       <div class = "center2"><img src="https://www.solidbackgrounds.com/images/1280x1024/1280x1024-light-blue-solid-color-background.jpg" height=500px width=100%></div>
-      <center><div class = "center">TOMBOY</div></center>
+      <div class = "center">TOMBOY</div>
     </div>
     <!-- <div class = "center3"><font face= Courier>tom·boy:</font></div> -->
-    <center><div class = "center4"><font face= Courier>Clothing that has a rough and edgy look</font></div></center>
     <div>
-      <a href="https://www.abercrombie.com/shop/us" target="_blank"><div class = "right"><img src="https://www.computing.co.uk/w-images/74326054-9ed4-4607-9af0-1cfcf90e0cd7/0/abercrombiefitchlogo-580x358.jpg" height=200px width=300px></div></a>
+      <div class = "center4"><font face= Courier>A girl who typically wears clothing that has a masculine look</font></div>
+      <div class = "sr2"><img src="https://www.solidbackgrounds.com/images/1280x1024/1280x1024-light-blue-solid-color-background.jpg" height=100px width=100%></div>
+      <div class ="sr">SEARCH RECOMMENDED SITES</div>
+    </div>
+    <div>
+      <div class = "right" id="text1"><a href="https://www.abercrombie.com/shop/us" target="_blank"><img src="https://www.computing.co.uk/w-images/74326054-9ed4-4607-9af0-1cfcf90e0cd7/0/abercrombiefitchlogo-580x358.jpg" height=200px width=300px></a></div>
       <a href="https://www.wildfang.com/" target="_blank"><div class = "middle"><img src="https://pbs.twimg.com/profile_images/661258855649705984/h2yK2-9N_400x400.jpg" height=200px width=200px></div></a>
       <a href="https://www.adidas.com/us" target="_blank"><div class = "left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2000px-Adidas_Logo.svg.png" height=200px width=300px></div></a>
     </div>
     <div>
-      <a href="https://www.hollisterco.com/shop/us" target="_blank"><div class = "right-middle"><img src="http://1000logos.net/wp-content/uploads/2017/02/Hollister-Logo.jpg" height=200px width=330px></div></a>
+      <a href="https://www.hollisterco.com/shop/us" target="_blank"><div class = "right-middle"><img src="http://1000logos.net/wp-content/uploads/2017/02/Hollister-Logo.jpg" height=200px width=325px></div></a>
       <a href="https://www.victoriassecret.com/pink" target="_blank"><div class = "left-middle"><img src="https://cblproperty.blob.core.windows.net/production/assets/blt1fc95a508e03d28f-Victorias_Secret_Pink_2137043005.png" height=200px width=350px></div></a>
-      <!-- <div class='positionedSearch'>
-        <input type="text" name="search" placeholder="Search.."><input type="submit" value="Search" class="searchbutton">
-      </div> -->
+    </div>
+    <div>
+      <script class="google">
+        (function() {
+          var cx = '005821821475579416892:7owgx1awbkq';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <div class = "google2">
+        <gcse:search></gcse:search>
+      </div>
+    </div>
       <div class="price">$
       <div class="price2">$ - $$
       <div class="price3">$ - $$
