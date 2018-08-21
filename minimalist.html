@@ -18,6 +18,7 @@
           overflow-x: hidden;
           transition: 0.5s;
           padding-top: 60px;
+          font-family: Georgia, serif;
       }
 
       .sidenav a {
@@ -84,7 +85,7 @@
         left: 5%;
         top:82%;
         font-size: 25px;
-        color: #707070;
+        color: #686868;
         font-family: 'Open Sans', sans-serif;
       }
       .right {
@@ -107,7 +108,7 @@
       }
       .right-middle {
         position: absolute;
-        top: 170%;
+        top: 160%;
         left: 18%;
         transform: translate(-50, -50%)
       }
@@ -117,24 +118,60 @@
         left: 53%;
         transform: translate(-50, -50%)
       }
-      .positionedSearch{
+      .price {
+        position: absolute;
+        top: 155%;
+        left: 20%;
+        font-size: 40px;
+        font-family: 'Georgia', serif;
+      }
+      .price2 {
+        position: relative;
+        top: -55px;
+        left: 165%;
+        font-size: 40px;
+        font-family: 'Georgia', serif;
+      }
+      .price3 {
+        position: relative;
+        top: -50px;
+        left: 153%;
+        font-size: 40px;
+        font-family: 'Georgia', serif;
+      }
+      .price4 {
+        position: relative;
+        top: 245px;
+        left: -287%;
+        font-size: 40px;
+        font-family: 'Georgia', serif;
+      }
+      .price5 {
+        position: relative;
+        top: -50px;
+        left: 219%;
+        font-size: 40px;
+        font-family: 'Georgia', serif;
+      }
+      /* .positionedSearch{
         width:500px;
         height: 55px;
         position: absolute;
         z-index: 2;
         left:40%;
         top: 680px;
-      }
+      } */
     </style>
   </head>
   <body>
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div>
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="index.html">Home</a>
+   <a href="test_quiz.html">Take quiz</a>
+   <a href="sidebar_allstyles.html">All styles</a>
+   <a href="sidebar_creators.html">Creators</a>
+   <a href="#"></a>
+ </div>
     <div>
       <span style="font-size:40px;cursor:pointer;color: #A9A9A9" onclick="openNav()">&#9776;</span>
       <script>
@@ -163,9 +200,14 @@
     <div>
       <a href="https://www.encircled.co/" target="_blank"><div class = "right-middle"><img src="https://cwbaf3rbyrj3d7vrq36gz4a4-wpengine.netdna-ssl.com/wp-content/uploads/2017/10/encircled.jpg" height=375px width=335px></div></a>
       <a href="https://hopemade.world/" target="_blank"><div class = "left-middle"><img src="https://i1.wp.com/the-millennials.net/wp-content/uploads/2018/04/logo.jpg?resize=980%2C783&ssl=1" height=250px width=350px></div></a>
-      <div class='positionedSearch'>
+      <!-- <div class='positionedSearch'>
         <input type="text" name="search" placeholder="Search.."><input type="submit" value="Search" class="searchbutton">
-      </div>
+      </div> -->
+      <div class="price">$
+      <div class="price2">$ - $$
+      <div class="price3">$$$ - $$$$
+      <div class="price4">$$ - $$$
+      <div class="price5">$$ - $$$
     </div>
   </body>
 </html>
