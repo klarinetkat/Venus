@@ -4,12 +4,60 @@
   </head>
 
   <style>
-  p {
+  #title {
+      position: relative;
+      color: DimGray;
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      margin: 0;
+      top: -330px;
+      right: -25px;
+      font-family: Georgia, serif;
+  }
+  .text-block-2 {
+      position: relative;
+      color: DimGrey;
+      font-size: 24px;
+      text-align: left;
+      font-family: Georgia, serif;
+      width: 1150px;
+      padding: 10px 5px 10px 5px;
+      box-sizing: border-box;
+      bottom: 50px;
+      right: -50px;
+      margin: 0;
+  }
+  #names {
     position: relative;
-    color: black;
+    color: LightCoral;
     font-size: 26px;
     text-align: center;
-    top: 50px;
+    top: 120px;
+    right: -25px;
+    font-weight: bold;
+  }
+  #paragraph{
+    position: relative;
+    color: DimGrey;
+    font-size: 24px;
+    text-align: left;
+    font-family: Georgia, serif;
+    width: 1150px;
+    padding: 10px 5px 10px 5px;
+    box-sizing: border-box;
+    top: 120px;
+    right: -20px;
+    margin: 0;
+  }
+  #grouppic {
+    position: relative;
+    text-align: center;
+    top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
   </style>
 
@@ -28,17 +76,20 @@
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="index.html">Home</a>
+      <a href="test_quiz.html">Take quiz</a>
       <a href="sidebar_allstyles.html">All styles</a>
       <a href="sidebar_creators.html">Creators</a>
-      <a href="#"></a>
     </div>
     <center>
       <div class='center1'><a href="index.html"><img src="test_venusLogo.jpg" width="200" height="113"></a></div>
     </center>
-    <p>Michelle Chow</p>
-    <p>Katherine Fernandes</p>
-    <p>Stella Lessler</p>
-    <p>Wenyan Zhang</p>
+    <a href="https://ibb.co/eOmB8K"><img id='grouppic' src="https://preview.ibb.co/dhTf2e/IMG_7947.jpg" alt="IMG_7947" border="0"></a>
+    <p id='names'>Katherine Fernandes&emsp;&nbsp;Stella Lessler&emsp;&nbsp;Michelle Chow&emsp;&nbsp;Wenyan Zhang</p>
+    <p id='title'>About Us</p>
+    <div class="text-block-2">
+      <p id='paragraph'>&emsp;&emsp;&emsp;Our website, Venus, allows the consumer to take a style quiz which then sorts the consumer into one of our five general style categories.&nbsp;Once sorted into a style group we then provide the consumer with five or more recommended brands that we believe will help them find their desired attire efficiently.</p>
+    </div>
   </body>
 
 </html>
+
