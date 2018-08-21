@@ -44,9 +44,11 @@ function tie(max,list){
         x.onclick = function() {
           window.location.href = "tomboy.html";
         };
-        // x.style.display = "block";
-        x.style.margin = "0 auto";
-        x.style.width = "50%";
+        x.style.display = "block";
+        x.style.marginLeft = "auto";
+        x.style.marginRight = "auto";
+        x.style.width = "37.5%";
+        x.style.padding = "5px";
         document.body.appendChild(x);
         // x.style.margin = "50px";
       }
@@ -58,9 +60,11 @@ function tie(max,list){
         x.onclick = function() {
           window.location.href = "minimalist.html";
         };
-        // x.style.display = "block";
-        x.style.margin = "0 auto";
-        x.style.width = "50%";
+        x.style.display = "block";
+        x.style.marginLeft = "auto";
+        x.style.marginRight = "auto";
+        x.style.width = "37.5%";
+        x.style.padding = "5px";
         document.body.appendChild(x);
         // x.style.margin = "50px";
       }
@@ -72,6 +76,11 @@ function tie(max,list){
         x.onclick = function() {
           window.location.href = "feminine.html";
         };
+        x.style.display = "block";
+        x.style.marginLeft = "auto";
+        x.style.marginRight = "auto";
+        x.style.width = "37.5%";
+        x.style.padding = "5px";
         document.body.appendChild(x);
         // x.style.margin = "0 auto";
       }
@@ -83,6 +92,11 @@ function tie(max,list){
         x.onclick = function() {
           window.location.href = "bohemian.html";
         };
+        x.style.display = "block";
+        x.style.marginLeft = "auto";
+        x.style.marginRight = "auto";
+        x.style.width = "37.5%";
+        x.style.padding = "5px";
         document.body.appendChild(x);
         // x.style.margin = "0 auto";
       }
@@ -94,6 +108,11 @@ function tie(max,list){
         x.onclick = function() {
           window.location.href = "vintage.html";
         };
+        x.style.display = "block";
+        x.style.marginLeft = "auto";
+        x.style.marginRight = "auto";
+        x.style.width = "37.5%";
+        x.style.padding = "5px";
         document.body.appendChild(x);
         // x.style.margin = "0 auto";
       }
