@@ -46,37 +46,6 @@ a {
     margin: 0;
 }
 
-.about-us {
-    position: relative;
-    text-align: center;
-    font-family: "Courier New", Courier, monospace;
-    margin: 0;
-    bottom: 190px;
-    right: -5px;
-}
-
-#title {
-    position: relative;
-    color: DimGray;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.text-block-2 {
-    position: relative;
-    color: DimGrey;
-    font-size: 26px;
-    text-align: left;
-    font-family: "Courier New", Courier, monospace;
-    width: 1150px;
-    padding: 10px 5px 10px 5px;
-    box-sizing: border-box;
-    bottom: 50px;
-    right: -50px;
-    margin: 0;
-}
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -107,6 +76,7 @@ a {
     font-size: 36px;
     margin-left: 50px;
 }
+
 
 
 
